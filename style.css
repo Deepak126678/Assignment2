@@ -1,0 +1,144 @@
+.Players
+{
+    
+    justify-content: space-between;
+    height: 300px;
+    width:30%;
+    border:2px solid black;
+    margin:10px;
+    box-shadow: 10px 10px 8px #fcfcf9;
+}
+.Players:hover
+{
+  opacity: 0.5;
+  transform: translate(4px);
+}
+button{
+ margin-left:45%;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e5f83b;
+}
+#allrounder
+{
+    float:left;
+    text-align: center;
+}
+#bowlers
+{
+    float:right;
+    text-align: center;
+    background-color: #c9dfdf;
+
+}
+span{
+   background-color:rgb(241, 241, 224);
+}
+p{
+    display:block;
+    color:rgb(238, 219, 219)
+}
+button{
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    border:2px solid yellow;
+    font-size: 20px;
+}
+#a1{
+    text-align: center;
+    background-color: #ffd700;
+}
+body{
+    background-color: rgb(216, 216, 135);
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(186, 191, 194);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(67, 71, 24);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+   
+  }
+  th{
+    background-color: rgb(199, 199, 66);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(130, 199, 121);
+  }
+  tr:nth-child(even) {
+    background-color: rgb(77, 150, 184);
+  }
+  table{
+    height:300px;
+    width:70%;
+    margin-left:13%;
+    border-collapse: collapse;
+    margin-bottom:3%;
+    box-shadow: 10px 10px 8px #888888;
+    
+   
+  }
+  td{
+    text-align: center;
+  }
+  .list{
+    border:2px solid rgb(241, 241, 150);
+  }
+  #allrounder{
+    background-color: #c9dfdf;
+  }
+  .Hybrid
+  {
+    background-color: #c9dfdf;
+  }
+  .Hybrid h1{
+    color:white;
+  }
+  #bowlers h1{
+    color: white;
+
+  }
+  #allrounder h1{
+    color: white;
+
+  }
+  li{
+    color: rgb(160, 87, 87);
+  }
+  h1{color:white}
+
+  @media(max-width:600px){
+    .Players{
+      display: flex;
+      flex-direction: column;
+    margin-left:20%;
+      gap:20px;
+      width:60%;
+
+    }
+    p{
+      text-align: left;
+    }
+
+  }
