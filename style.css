@@ -128,7 +128,7 @@ a:link {
   }
   h1{color:white}
 
-  @media(max-width:600px){
+  @media(max-width:500px){
     .Players{
       display: flex;
       flex-direction: column;
