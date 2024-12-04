@@ -135,16 +135,23 @@ a:link {
     margin-left:20%;
       gap:20px;
       width:60%;
+        height:300px;
 
     }
     p{
       text-align: left;
+        color:black;
     }
       .list{
       display:flex;
       flex-direction: column;
       gap:10px;
     }
+      li{
+      font-size: 25px;
+    }
+      
+
 
 
   }
