@@ -140,5 +140,11 @@ a:link {
     p{
       text-align: left;
     }
+      .list{
+      display:flex;
+      flex-direction: column;
+      gap:10px;
+    }
+
 
   }
